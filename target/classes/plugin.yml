@@ -1,0 +1,6 @@
+name: LAMCFramework
+version: 1.0.0
+main: com.gyvex.framework.LAMCFramework
+author: Niels Hamelink
+description: "A Laravel-like framework for Minecraft plugin development"
+website: https://gyvex.com
