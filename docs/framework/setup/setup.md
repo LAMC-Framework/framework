@@ -1,7 +1,7 @@
 
-# LAMC Framework Setup Guide
+# LAMC Framework setup guide
 
-## Table of Contents
+## Table of contents
 
 1. [Introduction](#introduction)
 2. [Adding LAMC to the server](#adding-lamc-to-the-server)
