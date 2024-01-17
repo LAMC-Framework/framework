@@ -1,7 +1,7 @@
 # LAMC Framework Documentation
 
 ## Overview
-LAMC Framework is a Minecraft plugin development framework inspired by Laravel's architecture. It offers a structured and efficient approach to developing Minecraft plugins with a focus on clean code and modular design.
+LAMC Framework is a Minecraft plugin development framework inspired by Laravel's architecture. It offers a structured and efficient approach to developing Minecraft plugins with a focus on clean, short code and modular design.
 
 ## Key features
 - Custom command structure
@@ -27,7 +27,7 @@ Detailed documentation is available in the `docs` directory:
 
 - [Configurable messages](docs/framework/tools/configurable-message)
 - [Commands](docs/framework/tools/command.md)
-- [Managers])(docs/framework/tools/manager.md)
+- [Managers](docs/framework/tools/manager.md)
 
 ## Getting started
 For information on getting started with the LAMC Framework, see the [Setup guide](docs/framework/setup.md).
