@@ -23,7 +23,7 @@ jobs:
         run: mvn clean install -DskipTests
 
       - name: Publish to OSSRH
-        run: mvn deploy -DskipTests --settings .github/settings.xml
+        run: mvn deploy -X -DskipTests --settings .github/settings.xml
         env:
           GPG_SECRET_KEYS: ${{ secrets.GPG_SECRET_KEYS }}
           GPG_OWNERTRUST: ${{ secrets.GPG_OWNERTRUST }}
