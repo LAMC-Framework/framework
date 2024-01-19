@@ -56,12 +56,12 @@ public abstract class Model<T> {
             Builder query = query(clazz).select("*");
             DatabaseResponse response = query.execute();
             
-            System.out.println("[TheGunProject] Running query " + query.getQuery());
+            LogManager.info("[TheGunProject] Running query " + query.getQuery());
             
             if (response.isSuccess() && response.getRows() != null) {
                 List<Map<String, Object>> rows = response.getRows();
 
-                System.out.println("[TheGunProject] Found database result... " + rows.toString());
+                LogManager.info("Found database result... " + rows.toString());
 
                 for (Map<String, Object> row : rows) {
                     T item = clazz.getDeclaredConstructor().newInstance();
